@@ -1,18 +1,14 @@
 {
-  "name": "useless-module",
-  "version": "1.0.3",
-  "description": "useless module for npm",
+  "name": "@teleworld/null-dependency",
+  "version": "1.0.0",
+  "description": "null module for npm",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idrayv/useless-module.git"
+    "url": "git+https://github.com/teleworld-org/null-dependency.git"
   },
   "keywords": [
-    "useless"
+    "null"
   ],
   "engines": {
     "node": ">=4.2.4"
@@ -20,12 +16,7 @@
   "author": "Maksym Shchyhol <drayv.mj12@gmail.com> (github.com/idrayv)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idrayv/useless-module/issues"
+    "url": "https://github.com/teleworld-org/null-dependency/issues"
   },
-  "homepage": "https://github.com/idrayv/useless-module#readme",
-  "devDependencies": {
-    "chai": "^4.0.2",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.4.2"
-  }
+  "homepage": "https://github.com/teleworld-org/null-dependency#readme"
 }

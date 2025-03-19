@@ -1,22 +1,25 @@
-Useless module
-[![Build Status](https://travis-ci.org/idrayv/useless-module.svg?branch=master)](https://travis-ci.org/idrayv/useless-module)
-[![npm version](https://badge.fury.io/js/useless-module.svg)](https://badge.fury.io/js/useless-module)
-=========
+# null dependency
 
-Another useless module for npm
+null dependency module for npm
 
 ## Installation
 
-  `npm install useless-module`
+  `npm install null dependency`
 
 ## Usage
 
-Please don't.
-
-## Tests
-
-  `npm test`
-
-## Contributing
-
-It's useless.
+```
+{
+  "name": "usage-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "tedious": "^18.6.1"
+  },
+  "overrides": {
+    "tedious": {
+      "@azure/identity": "npm:@teleworld/null-dependency@1.0.0",
+      "@azure/keyvault-keys": "npm:@teleworld/null-dependency@1.0.0"
+    }
+  }
+}
+```
